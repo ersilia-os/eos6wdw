@@ -1,7 +1,7 @@
 Identifier: eos6wdw
-Slug: dotP
+Slug: dotP-embeddings
 Status: In progress
-Title: dotP
+Title: dotP embeddings
 Description: Antibiotic-activity informed chemical descriptors trained on a set 90k
   molecules for which we know antibiotic activity against >600 bacterial species.
 Deployment:
