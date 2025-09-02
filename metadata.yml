@@ -1,5 +1,5 @@
 Identifier: eos6wdw
-Slug: dotP-antibiotic-embeddings
+Slug: dotp-embeddings
 Status: In progress
 Title: dotP embeddings
 Description: Antibiotic-activity informed chemical descriptors trained on a set 90k molecules for which we know antibiotic activity against >600 bacterial species. The model was trained for molecular reconstruction and antibiotic activity prediction tasks simultaneously, so that the output descriptors capture both chemistry and antibiotic effect features.
