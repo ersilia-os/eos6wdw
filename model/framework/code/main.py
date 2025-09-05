@@ -13,7 +13,6 @@ root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(root, ".."))
 import dotP_encoder as de
 
-
 # read SMILES from .csv file, assuming one column with header
 with open(input_file, "r") as f:
     reader = csv.reader(f)
