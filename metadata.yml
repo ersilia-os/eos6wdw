@@ -1,43 +1,31 @@
 Identifier: eos6wdw
-Slug: dotP
+Slug: dotp-embeddings
 Status: In progress
-Title: dotP
-Description: Antibiotic-activity informed chemical descriptors trained on a set 90k
-  molecules for which we know antibiotic activity against >600 bacterial species.
+Title: dotP embeddings
+Description: Antibiotic-activity informed chemical descriptors trained on a set 90k molecules for which we know antibiotic activity against >600 bacterial species. The model was trained for molecular reconstruction and antibiotic activity prediction tasks simultaneously, so that the output descriptors capture both chemistry and antibiotic effect features.
 Deployment:
 - Local
-- Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection,
-  Similarity search, Generation
+Source: Local
+Source Type: External
+Task: Representation
+Subtask: Featurization
 Input:
 - Compound
 Input Dimension: 1
 Output:
 - Value
-- Score
-- Compound
-- Probability
-- Experimental value
-- '...'
 Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: 'The output of this template model should be interpreted like this.
-
-  '
+Output Consistency: Fixed
+Interpretation: 'Vector representation of a molecule'
 Tag:
 - Embedding
 - Descriptor
 Biomedical Area:
-- Biomedical Area 1
-- Biomedical Area 2
+- Any
 Target Organism:
-- Target Organism 1
-- Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
+- Any
+Publication Type: Other
 Publication Year: 2025
-Publication: null
+Publication: https://sbnb.irbbarcelona.org/
 Source Code: https://github.com/sbnb-irb/dotP
 License: MIT
